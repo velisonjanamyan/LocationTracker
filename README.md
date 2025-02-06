@@ -1,20 +1,6 @@
-Narek Hovhannisyan, [06.02.25 19:03]
 # Location Tracking Application
 
 This application is a Spring Boot application that consumes Location objects from a Kafka topic, calculates the traveled distance per person, and prints the updated total distance to the console.
-
-## Table of Contents
-
-1. [Overview](#overview)
-2. [Prerequisites](#prerequisites)
-3. [Installation and Build](#installation-and-build)
-4. [Kafka Setup](#kafka-setup)
-5. [Running the Application](#running-the-application)
-6. [Project Structure](#project-structure)
-7. [Configuration Details](#configuration-details)
-8. [Usage and Explanation](#usage-and-explanation)
-9. [Troubleshooting](#troubleshooting)
-
 
 ---
 
@@ -111,21 +97,63 @@ java -jar target/location-tracking-0.0.1-SNAPSHOT.jar
 
 location-tracking
 ├── pom.xml
+├── README.md
 ├── src
-│   └── main
-│       ├── java
-│       │   └── com.example.locationtracking
-│       │       ├── LocationTrackingApplication.java
-│       │       ├── config
-│       │       │   └── KafkaProducerConfig.java
-│       │       ├── model
-│       │       │   └── Location.java
-│       │       └── service
-│       │           └── LocationConsumer.java
-│       └── resources
-│           └── application.properties
+│   ├── main
+│   │   ├── java
+│   │   │   └── com
+│   │   │       └── example
+│   │   │           └── locationtracking
+│   │   │               ├── config
+│   │   │               │   ├── KafkaConsumerConfig.java
+│   │   │               │   └── KafkaProducerConfig.java
+│   │   │               ├── LocationTrackingApplication.java
+│   │   │               ├── model
+│   │   │               │   └── Location.java
+│   │   │               └── service
+│   │   │                   ├── LocationConsumer.java
+│   │   │                   ├── LocationProducer.java
+│   │   │                   └── ReportService.java
+│   │   └── resources
+│   │       └── application.properties
+│   └── test
+│       └── java
 └── target
-    └── location-tracking-0.0.1-SNAPSHOT.jar
+    ├── classes
+    │   ├── application.properties
+    │   └── com
+    │       └── example
+    │           └── locationtracking
+    │               ├── config
+    │               │   ├── KafkaConsumerConfig.class
+    │               │   └── KafkaProducerConfig.class
+    │               ├── LocationTrackingApplication.class
+    │               ├── model
+    │               │   └── Location.class
+    │               └── service
+    │                   ├── LocationConsumer.class
+    │                   ├── LocationProducer.class
+    │                   └── ReportService.class
+    ├── generated-sources
+    │   └── annotations
+    ├── generated-test-sources
+    │   └── test-annotations
+    ├── location-tracking-0.0.1-SNAPSHOT.jar
+    ├── location-tracking-0.0.1-SNAPSHOT.jar.original
+    ├── maven-archiver
+    │   └── pom.properties
+    ├── maven-status
+    │   └── maven-compiler-plugin
+    │       ├── compile
+    │       │   └── default-compile
+    │       │       ├── createdFiles.lst
+    │       │       └── inputFiles.lst
+    │       └── testCompile
+    │           └── default-testCompile
+    │               ├── createdFiles.lst
+    │               └── inputFiles.lst
+    └── test-classes
+
 
 
 ---
