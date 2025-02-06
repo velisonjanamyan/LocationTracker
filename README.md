@@ -93,7 +93,7 @@ java -jar target/location-tracking-0.0.1-SNAPSHOT.jar
 ---
 
 ## 6. Project Structure
-
+```
 
 location-tracking
 ├── pom.xml
@@ -153,7 +153,7 @@ location-tracking
     │               ├── createdFiles.lst
     │               └── inputFiles.lst
     └── test-classes
-
+```
 ## 7. Configuration Details
 
 `application.properties`
