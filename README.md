@@ -14,7 +14,7 @@ This application is a Spring Boot application that consumes Location objects fro
 7. [Configuration Details](#configuration-details)
 8. [Usage and Explanation](#usage-and-explanation)
 9. [Troubleshooting](#troubleshooting)
-10. [License](#license)
+
 
 ---
 
