@@ -95,68 +95,7 @@ java -jar target/location-tracking-0.0.1-SNAPSHOT.jar
 ## 6. Project Structure
 
 
-location-tracking
-├── pom.xml
-├── README.md
-├── src
-│   ├── main
-│   │   ├── java
-│   │   │   └── com
-│   │   │       └── example
-│   │   │           └── locationtracking
-│   │   │               ├── config
-│   │   │               │   ├── KafkaConsumerConfig.java
-│   │   │               │   └── KafkaProducerConfig.java
-│   │   │               ├── LocationTrackingApplication.java
-│   │   │               ├── model
-│   │   │               │   └── Location.java
-│   │   │               └── service
-│   │   │                   ├── LocationConsumer.java
-│   │   │                   ├── LocationProducer.java
-│   │   │                   └── ReportService.java
-│   │   └── resources
-│   │       └── application.properties
-│   └── test
-│       └── java
-└── target
-    ├── classes
-    │   ├── application.properties
-    │   └── com
-    │       └── example
-    │           └── locationtracking
-    │               ├── config
-    │               │   ├── KafkaConsumerConfig.class
-    │               │   └── KafkaProducerConfig.class
-    │               ├── LocationTrackingApplication.class
-    │               ├── model
-    │               │   └── Location.class
-    │               └── service
-    │                   ├── LocationConsumer.class
-    │                   ├── LocationProducer.class
-    │                   └── ReportService.class
-    ├── generated-sources
-    │   └── annotations
-    ├── generated-test-sources
-    │   └── test-annotations
-    ├── location-tracking-0.0.1-SNAPSHOT.jar
-    ├── location-tracking-0.0.1-SNAPSHOT.jar.original
-    ├── maven-archiver
-    │   └── pom.properties
-    ├── maven-status
-    │   └── maven-compiler-plugin
-    │       ├── compile
-    │       │   └── default-compile
-    │       │       ├── createdFiles.lst
-    │       │       └── inputFiles.lst
-    │       └── testCompile
-    │           └── default-testCompile
-    │               ├── createdFiles.lst
-    │               └── inputFiles.lst
-    └── test-classes
-
-
-
----
+location-tracking ├── pom.xml ├── README.md ├── src │   ├── main │   │   ├── java │   │   │   └── com │   │   │   └── example │   │   │   └── locationtracking │   │   │   ├── config │   │   │   │   ├── KafkaConsumerConfig.java │   │   │   │   └── KafkaProducerConfig.java │   │   │   ├── LocationTrackingApplication.java │   │   │   ├── model │   │   │   │   └── Location.java │   │   │   └── service │   │   │   ├── LocationConsumer.java │   │   │   ├── LocationProducer.java │   │   │   └── ReportService.java │   │   └── resources │   │   └── application.properties │   └── test │   └── java └── target ├── classes │   ├── application.properties │   └── com │   └── example │   └── locationtracking │   ├── config │   │   ├── KafkaConsumerConfig.class │   │   └── KafkaProducerConfig.class │   ├── LocationTrackingApplication.class │   ├── model │   │   └── Location.class │   └── service │   ├── LocationConsumer.class │   ├── LocationProducer.class │   └── ReportService.class ├── generated-sources │   └── annotations ├── generated-test-sources │   └── test-annotations ├── location-tracking-0.0.1-SNAPSHOT.jar ├── location-tracking-0.0.1-SNAPSHOT.jar.original ├── maven-archiver │   └── pom.properties ├── maven-status │   └── maven-compiler-plugin │   ├── compile │   │   └── default-compile │   │   ├── createdFiles.lst │   │   └── inputFiles.lst │   └── testCompile │   └── default-testCompile │   ├── createdFiles.lst │   └── inputFiles.lst └── test-classes
 
 ## 7. Configuration Details
 
