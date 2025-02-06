@@ -1,0 +1,7 @@
+/home/velison/IdeaProjects/spring-task/src/main/java/com/example/locationtracking/config/KafkaConsumerConfig.java
+/home/velison/IdeaProjects/spring-task/src/main/java/com/example/locationtracking/service/ReportService.java
+/home/velison/IdeaProjects/spring-task/src/main/java/com/example/locationtracking/service/LocationProducer.java
+/home/velison/IdeaProjects/spring-task/src/main/java/com/example/locationtracking/service/LocationConsumer.java
+/home/velison/IdeaProjects/spring-task/src/main/java/com/example/locationtracking/LocationTrackingApplication.java
+/home/velison/IdeaProjects/spring-task/src/main/java/com/example/locationtracking/model/Location.java
+/home/velison/IdeaProjects/spring-task/src/main/java/com/example/locationtracking/config/KafkaProducerConfig.java

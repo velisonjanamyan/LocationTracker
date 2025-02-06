@@ -1,0 +1,7 @@
+com/example/locationtracking/model/Location.class
+com/example/locationtracking/LocationTrackingApplication.class
+com/example/locationtracking/service/ReportService.class
+com/example/locationtracking/config/KafkaConsumerConfig.class
+com/example/locationtracking/config/KafkaProducerConfig.class
+com/example/locationtracking/service/LocationConsumer.class
+com/example/locationtracking/service/LocationProducer.class
